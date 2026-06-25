@@ -3,9 +3,7 @@
 
 </h2>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗪𝗘𝗟𝗖𝗢𝗠𝗘+𝗧𝗢+𝗧𝗘𝗔𝗠+𝗔𝗨𝗥𝗢+𝗥𝗘𝗣𝗢+:+𝗧𝗛𝗜𝗦+𝗜𝗦+𝗔+𝗔𝗗𝗩𝗔𝗡𝗖𝗘+𝗠𝗨𝗦𝗜𝗖+𝗕𝗢𝗧:𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+☞+❛.𝐑𝐎𝐂𝐊𝐘+⌯+🜲)
-
-
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+TEAM+AURO+𝚁𝙴𝙿𝙾+:+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗧𝗘𝗔𝗠+𝗥𝗢𝗖𝗞𝗬 )
 
 <p align="center">
   <img src="https://graph.org/file/19a4a797c33e9c8da0eba-5af71bf447eb6c072e.jpg">
