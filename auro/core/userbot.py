@@ -14,7 +14,7 @@ class Userbot(Client):
         self.clients = []
         clients = {"one": "SESSION1", "two": "SESSION2", "three": "SESSION3"}
         for key, string_key in clients.items():
-            name = f"auro{key[-1]}"
+            name = f"auroUB{key[-1]}"
             session = getattr(config, string_key)
             setattr(
                 self,
@@ -54,7 +54,7 @@ class Userbot(Client):
         client.mention = ub.me.mention
         self.clients.append(client)
         try:
-            await ub.join_chat("TeamAuro")
+            await ub.join_chat("teamauro")
         except Exception:
             pass
         logger.info(f"Assistant {num} started as @{client.username}")
