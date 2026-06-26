@@ -126,7 +126,6 @@ class MongoDB:
         return num
 
     async def get_assistant(self, chat_id: int):
-        from auro import auro
 
         if chat_id not in self.assistant:
             doc = await self.assistantdb.find_one({"_id": chat_id})

@@ -1,14 +1,18 @@
-import os
-import re
-import yt_dlp
-import random
 import asyncio
-import aiohttp
+import os
+import random
+import re
 from pathlib import Path
-from py_yt import Playlist, VideosSearch, Recommendations
-from auro import logger, config, app
+
+import aiohttp
+import yt_dlp
+from py_yt import Playlist, VideosSearch
+
+from auro import app, config, logger
 from auro.core._fallen_api import FallenApi
 from auro.helpers import Track, utils
+
+
 class YouTube:
     def __init__(self):
         self.base = "https://www.youtube.com/watch?v="
@@ -22,6 +26,7 @@ class YouTube:
             r"([A-Za-z0-9_-]{11}|PL[A-Za-z0-9_-]+)([&?][^\s]*)?"
         )
         self.fallen = FallenApi(app)
+
     def get_cookies(self):
         if not self.checked:
             for file in os.listdir(self.cookie_dir):
@@ -34,6 +39,7 @@ class YouTube:
                 logger.warning("Cookies are missing; downloads might fail.")
             return None
         return random.choice(self.cookies)
+
     async def save_cookies(self, urls: list[str]) -> None:
         logger.info("Saving cookies from urls...")
         async with aiohttp.ClientSession() as session:
@@ -45,8 +51,10 @@ class YouTube:
                     with open(f"{self.cookie_dir}/{name}.txt", "wb") as fw:
                         fw.write(await resp.read())
         logger.info(f"Cookies saved in {self.cookie_dir}.")
+
     def valid(self, url: str) -> bool:
         return bool(re.match(self.regex, url))
+
     async def search(self, query: str, m_id: int, video: bool = False) -> Track | None:
         try:
             _search = VideosSearch(query, limit=1, with_live=False)
@@ -68,7 +76,10 @@ class YouTube:
                 video=video,
             )
         return None
-    async def playlist(self, limit: int, user: str, url: str, video: bool) -> list[Track | None]:
+
+    async def playlist(
+        self, limit: int, user: str, url: str, video: bool
+    ) -> list[Track | None]:
         tracks = []
         try:
             plist = await Playlist.get(url)
@@ -89,7 +100,7 @@ class YouTube:
         except Exception:
             pass
         return tracks
- 
+
     async def download(self, video_id: str, video: bool = False) -> str | None:
         url = self.base + video_id
         ext = "mp4" if video else "webm"
@@ -121,17 +132,21 @@ class YouTube:
                 **base_opts,
                 "format": "bestaudio[ext=webm][acodec=opus]",
             }
+
         def _download():
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 try:
                     ydl.download([url])
                 except (yt_dlp.utils.DownloadError, yt_dlp.utils.ExtractorError):
-                    if cookie: self.cookies.remove(cookie)
+                    if cookie:
+                        self.cookies.remove(cookie)
                     return None
                 except Exception as ex:
                     logger.warning("Download failed: %s", ex)
                     return None
             return filename
+
         return await asyncio.to_thread(_download)
+
     async def close(self):
         await self.fallen.close()

@@ -9,7 +9,7 @@ from typing import Any, Optional, Tuple
 
 from pyrogram import filters, types
 
-from auro import auro, app, config, db, lang, userbot
+from auro import app, auro, config, db, lang, userbot
 from auro.helpers import format_exception, meval
 
 

@@ -5,7 +5,7 @@ import time
 import aiohttp
 from pyrogram import enums, errors, filters, types
 
-from auro import auro, app, db, lang, queue, tg, yt
+from auro import app, auro, db, lang, queue, tg, yt
 from auro.helpers import admin_check, buttons, can_manage_vc
 
 

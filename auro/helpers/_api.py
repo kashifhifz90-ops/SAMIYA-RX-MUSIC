@@ -1,6 +1,6 @@
+import asyncio
 import os
 import re
-import asyncio
 import urllib.parse
 from dataclasses import dataclass
 
@@ -28,9 +28,12 @@ class MusicTrack:
 
 class FallenApi:
     def __init__(
-            self, api_url: str, api_key: str,
-            retries: int = 3, timeout: int = 10,
-        ):
+        self,
+        api_url: str,
+        api_key: str,
+        retries: int = 3,
+        timeout: int = 10,
+    ):
         self.api_url = api_url
         self.api_key = api_key
         self.retries = retries
@@ -74,7 +77,9 @@ class FallenApi:
                 else:
                     filename = None
                 if not filename:
-                    filename = os.path.basename(cdn_url.split("?")[0]) or f"{video_id}.mp3"
+                    filename = (
+                        os.path.basename(cdn_url.split("?")[0]) or f"{video_id}.mp3"
+                    )
 
                 save_path = f"downloads/{filename}"
                 async with aiofiles.open(save_path, "wb") as f:

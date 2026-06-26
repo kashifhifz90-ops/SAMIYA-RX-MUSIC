@@ -3,7 +3,7 @@ import time
 
 from pyrogram import enums, errors, filters, types
 
-from auro import auro, app, config, db, lang, queue, tasks, userbot, yt
+from auro import app, auro, config, db, lang, queue, tasks, userbot, yt
 from auro.helpers import buttons
 
 

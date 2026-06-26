@@ -204,22 +204,16 @@ class TgCall(PyTgCalls):
                 await app.delete_messages(chat_id, current.message_id)
             except Exception:
                 pass
-                
+
         media = queue.get_next(chat_id, check=True)
 
         if not media:
             await self.stop(chat_id)
 
             if skip_user:
-                await app.send_message(
-                   chat_id,
-                   _lang["play_skipped"].format(skip_user)
-                )
+                await app.send_message(chat_id, _lang["play_skipped"].format(skip_user))
 
-            return await app.send_message(
-               chat_id,
-               _lang["queue_finished"]
-            )
+            return await app.send_message(chat_id, _lang["queue_finished"])
 
         # If we reached here, there is a next media in the queue
         media = queue.get_next(chat_id)

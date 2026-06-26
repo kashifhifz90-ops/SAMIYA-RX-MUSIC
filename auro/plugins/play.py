@@ -2,7 +2,7 @@ from pathlib import Path
 
 from pyrogram import filters, types
 
-from auro import auro, app, config, db, lang, queue, tg, yt
+from auro import app, config, db, lang, queue, tg, yt
 from auro.helpers import buttons, utils
 from auro.helpers._play import checkUB
 

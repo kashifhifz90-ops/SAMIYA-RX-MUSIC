@@ -1,6 +1,6 @@
 from pyrogram import filters, types
 
-from auro import auro, app, db, lang
+from auro import app, auro, db, lang
 from auro.helpers import can_manage_vc
 
 

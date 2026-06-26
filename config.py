@@ -28,7 +28,9 @@ class Config:
         self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aurosupport")
 
         self.API_URL = getenv("API_URL", "https://api.onegrab.fun")
-        self.API_KEY = getenv("API_KEY", "fbee25_x8FqJTStnOF5Ry5vGzMXTbR8zmuJ0H29") # Get this value from @FallenApiBot by sending /apikey
+        self.API_KEY = getenv(
+            "API_KEY", "fbee25_x8FqJTStnOF5Ry5vGzMXTbR8zmuJ0H29"
+        )  # Get this value from @FallenApiBot by sending /apikey
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "False"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "False"
@@ -46,8 +48,14 @@ class Config:
         self.DEFAULT_THUMB = getenv(
             "DEFAULT_THUMB", "https://te.legra.ph/file/3e40a408286d4eda24191.jpg"
         )
-        self.PING_IMG = getenv("PING_IMG", "https://graph.org/file/a3cc654217d68297d8538-f0ae69bbb7a360f6ae.jpg")
-        self.START_IMG = getenv("START_IMG", "https://graph.org/file/7eb3861ad7d0e534779f9-d8bd7d44babfa6961b.jpg")
+        self.PING_IMG = getenv(
+            "PING_IMG",
+            "https://graph.org/file/a3cc654217d68297d8538-f0ae69bbb7a360f6ae.jpg",
+        )
+        self.START_IMG = getenv(
+            "START_IMG",
+            "https://graph.org/file/7eb3861ad7d0e534779f9-d8bd7d44babfa6961b.jpg",
+        )
 
     def check(self):
         missing = [

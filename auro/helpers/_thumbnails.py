@@ -14,15 +14,9 @@ class Thumbnail:
 
     def __init__(self):
         try:
-            self.title_font = ImageFont.truetype(
-                "auro/helpers/Raleway-Bold.ttf", 48
-            )
-            self.small_font = ImageFont.truetype(
-                "auro/helpers/Inter-Light.ttf", 28
-            )
-            self.time_font = ImageFont.truetype(
-                "auro/helpers/Raleway-Bold.ttf", 24
-            )
+            self.title_font = ImageFont.truetype("auro/helpers/Raleway-Bold.ttf", 48)
+            self.small_font = ImageFont.truetype("auro/helpers/Inter-Light.ttf", 28)
+            self.time_font = ImageFont.truetype("auro/helpers/Raleway-Bold.ttf", 24)
         except Exception:
             self.title_font = ImageFont.load_default()
             self.small_font = ImageFont.load_default()
@@ -45,11 +39,7 @@ class Thumbnail:
 
     def create_image(self, thumb_path, output, song):
         # Background
-        bg = (
-            Image.open(thumb_path)
-            .convert("RGB")
-            .resize((self.WIDTH, self.HEIGHT))
-        )
+        bg = Image.open(thumb_path).convert("RGB").resize((self.WIDTH, self.HEIGHT))
 
         bg = bg.filter(ImageFilter.GaussianBlur(40))
         bg = ImageEnhance.Brightness(bg).enhance(0.45)
@@ -57,11 +47,7 @@ class Thumbnail:
         draw = ImageDraw.Draw(bg)
 
         # Album Art
-        cover = (
-            Image.open(thumb_path)
-            .convert("RGB")
-            .resize((380, 380))
-        )
+        cover = Image.open(thumb_path).convert("RGB").resize((380, 380))
 
         x = 90
         y = 170

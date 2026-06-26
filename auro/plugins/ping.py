@@ -3,7 +3,7 @@ import time
 import psutil
 from pyrogram import filters, types
 
-from auro import auro, app, boot, config, lang
+from auro import app, auro, boot, config, lang
 from auro.helpers import buttons
 
 

@@ -2,7 +2,7 @@ import time
 
 from pyrogram import filters, types
 
-from auro import auro, app, db, lang, queue
+from auro import app, auro, db, lang, queue
 from auro.helpers import can_manage_vc
 
 
