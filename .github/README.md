@@ -1,17 +1,10 @@
-<h2 align="center">
-    ─˹𝐓𝐞𝐚𝐦-𝐀𝐮𝐫𝐨˼─
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<!--              ✦  XBITCODE MUSIC BOT  ✦                        -->
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 
-</h2>
+<div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+TEAM+AURO+𝚁𝙴𝙿𝙾+:+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗧𝗘𝗔𝗠+𝗥𝗢𝗖𝗞𝗬 )
-
-<p align="center">
-  <img src="https://graph.org/file/19a4a797c33e9c8da0eba-5af71bf447eb6c072e.jpg">
-</p>
-
-
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗕𝗘𝗙𝗢𝗥𝗘+𝗗𝗘𝗣𝗟𝗢𝗬)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,30:302b63,60:7c3aed,85:a855f7,100:ec4899&height=260&section=header&text=🎵%20XBITCODE%20MUSIC&fontSize=62&fontColor=ffffff&animation=twinkling&fontAlignY=45&stroke=ffffff&strokeWidth=1&desc=⚡%20Telegram%20Music%20Bot%20•%20Powered%20by%20XBitcode%20API&descAlignY=68&descSize=16&descColor=e2d9ff" width="100%"/>
 
 ## ⚠️ 𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
