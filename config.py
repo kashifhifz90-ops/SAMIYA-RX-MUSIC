@@ -29,7 +29,7 @@ class Config:
 
         self.API_URL = getenv("API_URL", "https://api.onegrab.fun")
         self.API_KEY = getenv(
-            "API_KEY", "fbee25_x8FqJTStnOF5Ry5vGzMXTbR8zmuJ0H29"
+            "API_KEY", "xx"
         )  # Get this value from @FallenApiBot by sending /apikey
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "False"
