@@ -97,20 +97,28 @@
     bash start
     ```
 
----
+</div>
 
-### 🛠 Commands & Usage
+<div align="center">
 
-The Aviax Music Bot offers a range of commands to enhance your music listening experience on Telegram:
+```
+╔════════════════════════════════════════════════════════════════════╗
+║                      🚀 Commands & Usage  🚀                      ║
+║────────────────────────────────────────────────────────────────────║
+║ Command                 | Description                              ║  
+║-------------------------|------------------------------------------║
+║ `/play <song name>`     | Play the requested song.                 ║
+║ `/pause`                | Pause the currently playing song.        ║
+║ `/resume`               | Resume the paused song.                  ║
+║ `/skip`                 | Move to the next song in the queue.      ║
+║ `/stop`                 | Stop the bot and clear the queue.        ║ 
+║ `/queue`                | Display the list of songs in the queue.  ║
+╚════════════════════════════════════════════════════════════════════╝
+```
 
-| Command                 | Description                                 |
-|-------------------------|---------------------------------------------|
-| `/play <song name>`     | Play the requested song.                    |
-| `/pause`                | Pause the currently playing song.           |
-| `/resume`               | Resume the paused song.                     |
-| `/skip`                 | Move to the next song in the queue.         |
-| `/stop`                 | Stop the bot and clear the queue.           |
-| `/queue`                | Display the list of songs in the queue.     |
+</div>
+
+<br/>
 
 ## 〔 ⚠️ Disclaimer 〕
 
