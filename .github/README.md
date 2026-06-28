@@ -112,9 +112,45 @@ The Aviax Music Bot offers a range of commands to enhance your music listening e
 | `/stop`                 | Stop the bot and clear the queue.           |
 | `/queue`                | Display the list of songs in the queue.     |
 
-For a full list of commands, use `/help` in [telegram](https://t.me/TEAMAURO).
+## 〔 ⚠️ Disclaimer 〕
 
----
-━━━━━━━━━━━━━━━━━━━━
-### Contact :
-<a href="https://telegram.me/MrRockyTg"><img title="Telegram" src="https://img.shields.io/badge/Contact-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+</div>
+
+<div align="center">
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│                                                                  │
+│  ⚠️  This software is intended for personal and educational use  │
+│  📜  Users must comply with YouTube's Terms of Service.          │
+│  🤖  Users must comply with Telegram's Bot Policy.               │
+│  🚫  Developers are not liable for any misuse of this software.  │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br/>
+
+<!--------------------------------------------------------------->
+<!--                        FOOTER                             -->
+<!--------------------------------------------------------------->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=140&section=footer&animation=fadeIn&fontColor=ffffff&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20TEAM-AURO&fontSize=22&fontAlignY=65" width="100%"/>
+
+<br/>
+
+[![🌐 xbitcode.com](https://img.shields.io/badge/━━━━━━━━━━%20🌐%20TEAM-AURO.COM%20━━━━━━━━━━-A855F7?style=for-the-badge)](https://t.me/TeamAuro)
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=xbitcode-music&label=Profile+Views&color=A855F7&style=for-the-badge" alt="Views"/>
+
+<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+</div>
