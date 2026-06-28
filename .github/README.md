@@ -122,6 +122,12 @@
 
 <br/>
 
+<td>Project Owner</td>
+<td align="center"><img src="https://img.shields.io/badge/🏢-Owner-f59e0b?style=flat-square"/></td>
+</tr>
+</table>
+
+
 ## 〔 ⚠️ Disclaimer 〕
 
 </div>
