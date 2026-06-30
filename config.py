@@ -28,7 +28,7 @@ class Config:
         self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aurosupport")
 
         self.API_URL = "https://teaminflex.xyz"
-        self.API_KEY = "INFLEX42532028D"
+        self.API_KEY = "YOUR_KEY"
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "False"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "False"
