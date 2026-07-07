@@ -24,8 +24,8 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/teamauro")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aurosupport")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SAMIYA_SNIPEY10")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/music_group110")
 
         self.API_URL = "https://teaminflex.xyz"
         self.API_KEY = "YOUR_KEY"
